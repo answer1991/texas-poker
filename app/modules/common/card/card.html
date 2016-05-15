@@ -1,0 +1,4 @@
+<div>
+    <p ng-if="card.getStatus() === 'Open'"> 打开的 {{ card.getColor() }} {{ card.getNumber() }}</p>
+    <p ng-if="card.getStatus() === 'Folding'"> 关闭的 {{ card.getColor() }} {{ card.getNumber() }}</p>
+</div>

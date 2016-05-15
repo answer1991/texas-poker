@@ -1,0 +1,102 @@
+{
+  "data": {
+    "aPlayerList": [
+      {
+        "roleId": 100,
+        "privateCards": [
+          {
+            "cardNum": 7,
+            "cardType": 1
+          },
+          {
+            "cardNum": 11,
+            "cardType": 0
+          }
+        ],
+        "nickname": "RYU",
+        "avatar": "http://120.55.92.1:9602/avatar/20160402/14606155572751.jpg",
+        "userId": 15,
+        "bonus": 2
+      },
+      {
+        "roleId": 2,
+        "privateCards": [
+          {
+            "cardNum": 6,
+            "cardType": 1
+          },
+          {
+            "cardNum": 5,
+            "cardType": 2
+          }
+        ],
+        "nickname": "JAMAIL",
+        "avatar": "http://120.55.92.1:9602/avatar/20160402/14606227749153.jpg",
+        "userId": 20,
+        "bonus": -2
+      }
+    ],
+    "publicCards": [
+      {
+        "cardNum": 12,
+        "cardType": 1
+      },
+      {
+        "cardNum": 13,
+        "cardType": 3
+      },
+      {
+        "cardNum": 7,
+        "cardType": 2
+      },
+      {
+        "cardNum": 8,
+        "cardType": 3
+      },
+      {
+        "cardNum": 9,
+        "cardType": 1
+      }
+    ],
+    "actionList": [
+      {
+        "amount": 1,
+        "roundNum": 0,
+        "userId": 15,
+        "operation": 3
+      },
+      {
+        "amount": 2,
+        "roundNum": 0,
+        "userId": 20,
+        "operation": 3
+      },
+      {
+        "amount": 1,
+        "roundNum": 0,
+        "userId": 15,
+        "operation": 2
+      },
+      {
+        "amount": 0,
+        "roundNum": 0,
+        "userId": 20,
+        "operation": 1
+      },
+      {
+        "amount": 0,
+        "roundNum": 1,
+        "userId": 15,
+        "operation": 1
+      },
+      {
+        "amount": 0,
+        "roundNum": 1,
+        "userId": 20,
+        "operation": 0
+      }
+    ]
+  },
+  "message": "ok",
+  "retcode": 0
+}

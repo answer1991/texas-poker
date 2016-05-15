@@ -1,0 +1,33 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-2 col-xs-2">
+            <span ng-click="playRecord.play();" class="glyphicon glyphicon-play" aria-hidden="true"></span>
+        </div>
+
+        <div class="col-sm-2 col-xs-2">
+            <span ng-click="playRecord.stop();" class="glyphicon glyphicon-pause" aria-hidden="true"></span>
+        </div>
+
+        <div class="col-sm-2 col-xs-2">
+            <span ng-click="playRecord.replay();" class="glyphicon glyphicon-repeat" aria-hidden="true"></span>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div ng-repeat="player in playRecord.players" class="col-sm-3 col-xs-3">
+            <player player="player"></player>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="{{ playRecord.getProgress() }}"
+                 aria-valuemin="0"
+                 aria-valuemax="100"
+                 style="width: {{playRecord.getProgress() }}%;">
+                {{ playRecord.getProgress() | number : 0 }}%
+            </div>
+        </div>
+    </div>
+</div>

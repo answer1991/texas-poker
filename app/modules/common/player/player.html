@@ -1,0 +1,21 @@
+<div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                {{ player.nickname }}
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                {{ player.bonus }}
+            </div>
+        </div>
+
+        <div class="row">
+            <div ng-repeat="card in player.privateCards" class="col-sm-6">
+                <card card="card"></card>
+            </div>
+        </div>
+    </div>
+</div>

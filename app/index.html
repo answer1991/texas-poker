@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <title>Texas Poker</title>
+
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css(.) styles/bootstrap.css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <!-- endbuild -->
+
+    <!-- build:css(.) styles/vender-plus.css -->
+    <link rel="stylesheet" href="bower_components/tether-tooltip/dist/css/tooltip-theme-arrows.css">
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+</head>
+<body ng-app="texas.poker">
+
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div ui-view></div>
+
+<!-- build:js(.) scripts/oldieshim.js -->
+<!--[if lt IE 9]>
+<script src="bower_components/es5-shim/es5-shim.js"></script>
+<script src="bower_components/json3/lib/json3.js"></script>
+<![endif]-->
+<!-- endbuild -->
+
+<!-- build:js(.) scripts/vendor.js -->
+<!-- bower:js -->
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-animate/angular-animate.js"></script>
+<script src="bower_components/angular-aria/angular-aria.js"></script>
+<script src="bower_components/angular-cookies/angular-cookies.js"></script>
+<script src="bower_components/angular-messages/angular-messages.js"></script>
+<script src="bower_components/angular-resource/angular-resource.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+<script src="bower_components/angular-touch/angular-touch.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="bower_components/moment/moment.js"></script>
+<script src="bower_components/moment-timezone/builds/moment-timezone-with-data-2010-2020.js"></script>
+<script src="bower_components/lodash/lodash.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_components/tether/dist/js/tether.js"></script>
+<script src="bower_components/tether-drop/dist/js/drop.js"></script>
+<script src="bower_components/tether-tooltip/dist/js/tooltip.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+
+
+<!-- build:js(app) scripts/scripts.js -->
+<script src="modules/app.js"></script>
+
+<script src="modules/core/core.js"></script>
+<script src="modules/core/remote/remote.js"></script>
+
+<script src="modules/config/config.js"></script>
+<script src="modules/config/config-401.js"></script>
+<script src="modules/config/config-302.js"></script>
+<script src="modules/config/config-aHrefWhiteList.js"></script>
+<script src="modules/config/config-index.js"></script>
+<script src="modules/config/config-local.js"></script>
+
+<script src="modules/common/common.js"></script>
+<script src="modules/common/layout/layout.js"></script>
+<script src="modules/common/layout/default/default.js"></script>
+
+<script src="modules/common/card/card.js"></script>
+<script src="modules/common/card/card-service.js"></script>
+<script src="modules/common/card/card-directive.js"></script>
+
+<script src="modules/common/player/player.js"></script>
+<script src="modules/common/player/player-service.js"></script>
+<script src="modules/common/player/player-directive.js"></script>
+
+<script src="modules/common/playRecord/playRecord.js"></script>
+<script src="modules/common/playRecord/playRecord-service.js"></script>
+<script src="modules/common/playRecord/playRecord-directive.js"></script>
+
+<script src="modules/prods/prods.js"></script>
+<script src="modules/prods/index/index.js"></script>
+<script src="modules/prods/playRecord/playRecord.js"></script>
+<!-- endbuild -->
+
+<!-- build:js(app) scripts/template.js -->
+<script src="modules/tpls/templates.js"></script>
+<!-- endbuild -->
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+/.tmp
+/dist
+/app/lang
+/app/modules/tpls
+/bower_components
+/node_modules
