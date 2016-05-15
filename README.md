@@ -1,10 +1,12 @@
 ### 准备
 npm install bower -g
+
 npm install grunt-cli -g
 
 ### 初始化
 
 npm install
+
 bower install
 
 ### 本地运行开发文件
