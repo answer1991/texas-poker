@@ -18,5 +18,6 @@ angular
         'texas.poker.config',
         'texas.poker.common',
         'texas.poker.prods',
+        'texas.poker.test',
         'texas.poker.tpls'
     ]);
